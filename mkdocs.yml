@@ -1,0 +1,24 @@
+site_name: Release Notes (Automation Demo)
+site_description: Auto-generated release notes with human-in-the-loop review
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Release Notes:
+      - English: release-notes.en.md
+      - Italian: release-notes.it.md
+      - French: release-notes.fr.md
+      - German: release-notes.de.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+plugins:
+  - search
